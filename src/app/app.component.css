@@ -1,0 +1,313 @@
+@import 'ckeditor5/ckeditor5.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@media print {
+  body {
+    margin: 0 !important;
+  }
+}
+
+.main-container {
+  font-family: 'Lato';
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ck-content {
+  font-family: 'Lato';
+  line-height: 1.6;
+  word-break: break-word;
+}
+
+.editor-container_inline-editor .editor-container__editor {
+  min-width: 795px;
+  max-width: 795px;
+}
+
+
+.header-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.menu-icon {
+  font-size: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.search-box {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.right-icons {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.notification {
+  position: relative;
+  margin-right: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+.user-circle {
+  background-color: #004f9f;
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 32px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.user-info .name {
+  font-weight: bold;
+}
+
+.user-info .role {
+  color: #666;
+  font-size: 12px;
+}
+
+.dropdown-icon i {
+  font-size: 12px;
+  color: #333;
+  cursor: pointer;
+}
+
+.project-info-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  font-family: sans-serif;
+}
+
+.project-info-container-ckeditor {
+  max-width: 1100px;
+  margin: 20px auto;
+  font-family: sans-serif;
+}
+
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-table th {
+  background-color: #004b8d;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.project-table td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  vertical-align: top;
+}
+
+.project-table .label {
+  background-color: #e6f0f7;
+  font-weight: bold;
+  width: 20%;
+  white-space: nowrap;
+}
+
+.note {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #777;
+  text-align: right;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  gap: 20px;
+  padding-left: 10px;
+}
+
+.tab {
+  padding: 10px 15px;
+  font-weight: bold;
+  color: #444;
+  cursor: pointer;
+}
+
+.tab.active {
+  border-bottom: 3px solid #004b8d;
+  color: #004b8d;
+}
+
+.stepper {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.step {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-left: 10px solid #ccc;
+  background-color: #f8f8f8;
+}
+
+.step.active {
+  border-left-color: #004b8d;
+  background-color: #e6f0ff;
+}
+
+.step-number {
+  font-size: 40px;
+  font-weight: bold;
+  color: #004b8d;
+}
+
+.step-title {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.step-sub {
+  font-size: 12px;
+  color: gray;
+}
+
+.sub-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.sub-button {
+  flex: 1;
+  padding: 15px;
+  background-color: #e6f0f7;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bg-e6f0f7 {
+  background-color: #e6f0f7;
+}
+
+.action-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  font-family: sans-serif;
+  justify-content: center;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.save {
+  background-color: #003c8f;
+  color: white;
+}
+
+.edit {
+  background-color: white;
+  border: 2px solid #007bff;
+  color: #007bff;
+}
+
+.print {
+  background-color: #00a0df;
+  color: white;
+  position: relative;
+}
+
+.arrow {
+  margin-left: 8px;
+  font-size: 12px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 38px;
+  left: 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-width: 160px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  padding: 4px 0;
+}
+
+.dropdown-menu li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f2f2f2;
+}
+
+html>body>div.ck-body-wrapper {
+  display: none;
+}
