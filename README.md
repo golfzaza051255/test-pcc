@@ -4,4 +4,4 @@
 2. Install project ด้วยคำสั่ง (npm install)
 3. Run project ด้วยคำสั่ง (ng serve)
  - ตัวอย่าง UI ของระบบ ครับ ตอนนี้กดได้แค่ พิมพ์หนังสือ ครับ
-![alt text](image.png)
+![alt text](image-1.png)
